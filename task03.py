@@ -40,7 +40,7 @@ def count_logs_by_level(logs):
 
 
 def display_log_counts(counts):
-    print("Рівень логу | Кількість")
+    print("Рівень логування | Кількість")
     print("-----------------|----------")
     for level, count in counts.items():
         print(f"{level:<17}| {count}")
